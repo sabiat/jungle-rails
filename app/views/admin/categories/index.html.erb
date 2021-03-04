@@ -1,0 +1,31 @@
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+  <div class="panel panel-default products">
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th colspan="2">Category</th>
+          <th>Qty Remaining</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @categories.each do |item| %>
+          <tr>
+            <td>
+              <%= item.name %>
+            </td
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div>
+
+  <%= @categories.inspect %>
+
+</section>

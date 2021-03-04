@@ -3,8 +3,6 @@ class Admin::CategoriesController < ApplicationController
 
   def index
     @categories = Category.order(id: :desc).all
-
-    @quantity = Product.where(category_id: 3).sum(:quantity)
   end
 
   def new 
@@ -13,7 +11,6 @@ class Admin::CategoriesController < ApplicationController
 
   def create
     @category = Category.new(params.require(:category).permit(:name))
-
     if @category.save
       redirect_to [:admin, :categories], notice: 'Category created!'
     else

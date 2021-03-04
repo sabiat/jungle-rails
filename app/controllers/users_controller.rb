@@ -8,6 +8,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to "/"
     else
+      flash[:danger] = 'Something went wrong, please try again'
       redirect_to '/signup'
     end
   end

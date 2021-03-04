@@ -1,5 +1,9 @@
 <h1>Signup!</h1>
 
+<% flash.each do |type, message| %>
+  <div class="alert alert-danger"><%= message %></div>
+<% end %>
+
 <div class="row">
   <div class="col-sm-6 col-sm-offset-1">
 
@@ -17,7 +21,7 @@
         Password: <%= f.password_field :password, class: 'form-control' %>
       </div>
       <div class="form-group">
-        Password Confirmation: <%= f.password_field :password_confirmation, class: 'form-control' %>
+        Confirm password: <%= f.password_field :password_confirmation, class: 'form-control' %>
       </div>
       <%= f.submit "Submit" %>
 

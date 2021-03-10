@@ -31,6 +31,9 @@ Product page
 Signup page
 !["Signup page"](https://github.com/sabiat/jungle-rails/blob/master/docs/signup.png?raw=true)
 
+Admin authentication
+!["Admin-login"](https://github.com/sabiat/jungle-rails/blob/master/docs/admin-login.png?raw=true)
+
 Check out page
 !["Cart"](https://github.com/sabiat/jungle-rails/blob/master/docs/checkout.png?raw=true)
 

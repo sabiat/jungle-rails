@@ -19,7 +19,17 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 
+Product page
+!["Product page"](https://github.com/sabiat/jungle-rails/blob/master/docs/homepage.png?raw=true)
 
+Signup page
+!["Signup page"](https://github.com/sabiat/jungle-rails/blob/master/docs/signup.png?raw=true)
+
+Check out page
+!["Cart"](https://github.com/sabiat/jungle-rails/blob/master/docs/checkout.png?raw=true)
+
+Order details
+!["Order details"](https://github.com/sabiat/jungle-rails/blob/master/docs/order-details.png?raw=true)
 
 ## Setup
 
